@@ -1,1 +1,4 @@
 *.log
+.vstags
+
+.forecast.json
