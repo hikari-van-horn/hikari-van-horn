@@ -103,6 +103,8 @@ source $ZSH/oh-my-zsh.sh
 alias setproxy="export ALL_PROXY=http://127.0.0.1:7890"
 alias unsetproxy="unset ALL_PROXY"
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/Users/strong/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
